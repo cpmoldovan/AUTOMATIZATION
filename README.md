@@ -18,7 +18,7 @@ This project automates contract generation using a simple web interface. Users c
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/contract-automation.git
+   git clone https://github.com/cpmoldovan/AUTOMATIZATION.git
    cd contract-automation
    ```
 
