@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatizare</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+<body>
+    <h2 class="is-size-3 is-uppercase is-italic has-text-centered has-text-primary" >Automatizare draft-uri contract</h2>
+
+    <form method="POST" , enctype="multipart/form-data" action='/success' class="has-text-centered has-text-weight-bold">
+        <label for="no_registration">No registration:</label><br>
+        <input type="text" name="no_registration" value="no_registration"><br>
+        <label for="date">Date:</label><br>
+        <input type="text" name="date" value="dd.mm.yy"><br>
+        <label for="company_name">Company name:</label><br>
+        <input type="text" name="company_name" value="Company name"><br><br>
+        <label for="administrator_name">Administrator name:</label><br>
+        <input type="text" name="administrator_name" value="name"><br>
+        <label for="contract_value">Contract value:</label><br>
+        <input type="text" name="contract_value" value="value"><br>
+        <label for="price_include">Price include:</label><br>
+        <input type="text" name="price_include" value="price"><br>
+        <label for="contract_duration">Contract duration:</label><br>
+        <input type="text" name="contract_duration" value="duration"><br>
+        <label for="advance_payment_percentage">Advance Payment Percentage:</label><br>
+        <input type="text" name="advance_payment_percentage" value="Advance payment"><br>
+        <label for="left_payment_percentage">Left Payment Percentage:</label><br>
+        <input type="text" name="left_payment_percentage" value="Left payment"><br>
+        <input type="submit" value="Generate Document">
+    </form>
+    <a href="../documente_create" target="_blank">Archive documents</a>
+</body>
+
+</html>
